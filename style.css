@@ -109,8 +109,8 @@ body {
     position: fixed;
     top: 65px;
     display: inline-block;
-    margin: 20px 10px 0 10px;
-    max-width: 180px;
+    margin: 20px 0 0 0;
+    max-width: 160px;
     width: 180px;
     padding: 0px
 }
@@ -118,19 +118,23 @@ body {
 .leftBItem {
     float: left;
     width: 100%;
-    padding: 7.5px 0 7.5px 0;
     list-style-type: none;
 }
 
 .leftBItem a {
-    font-weight: bold;
-    color: #586571;
+    /* font-weight: bold; */
+    display: inline-block;
+    padding: 7.5px 20px 7.5px 20px;
+    width: 100%;
+    height: 100%;
+    color: #2d343a;
     text-decoration: none;
-    font-size: 15.5px;
+    font-size: 16.5px;
 }
 
 .leftBItem a:hover{
-    color: #2d343a;
+    color: #e4e6e8;
+    background: #1b2229;
 }
 
 #player {
